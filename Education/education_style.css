@@ -1,0 +1,113 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}   
+header {
+    background-color: white;
+    display: flex;
+    position: fixed;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    width: 100%;
+    z-index: 99;  
+}
+.block {
+    margin-left: auto;
+    margin-bottom: 0;
+}
+header h4 {
+    padding: 20px;
+    margin-bottom: 0;
+    font-size: 25px;
+    font-family: cursive;
+}
+header h4:hover {
+    background-color: #c4c4c5
+}
+.block li {
+    display: inline-block;
+    padding: 25px;
+}
+.block li:hover {
+    background-color: #c4c4c5
+}
+.block li a {
+    text-decoration: none;
+    color: black;
+    padding: 25px 0 25px 0;
+}
+table {
+    font-family: cursive;
+    border-collapse: collapse;
+    width: 100%;
+    padding-top: 300px;
+    color: black;
+}
+  
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+.banner {
+    background: url("../Images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 800px;
+    width: 100%;
+    color: white;
+    padding-top: 350px;
+    
+}
+
+
+
+
+footer {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
